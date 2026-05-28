@@ -21,4 +21,4 @@ jobs:
           java-version: '11'
 
       - name: Build va kiem thu voi Maven
-        run: mvn test
+        run: cd JavaMaven-PhanThanhPhuc-110123160 && mvn test
